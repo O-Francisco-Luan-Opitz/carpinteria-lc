@@ -11,18 +11,102 @@
 footer {
     background: linear-gradient(green, grey);
     color: white;
-    padding-top: 300px;
     height: auto;
+} 
+
+.footer-contact {
+
+} 
+
+.name { 
+    display: flex; 
+    flex-direction: row-reverse;
+    background: radial-gradient(grey, black); 
+    padding: 1rem; 
 }
 
-.prod-destacados {
-    padding: 4em;
+.name .text-start a { 
+    
+    
+    height: 10rem; 
+    padding: 4rem;
+    color: white;
+    font-family:fantasy;  
+    text-decoration: none;
+} 
+
+.name .text-start a:hover {     
+    height: 10rem; 
+    padding: 4rem;
+    color: rgb(255, 94, 66);
+    font-family:fantasy; 
 }
 
 
+.gradient {
+    background: radial-gradient( grey, black);
+}
+
+.text-contact {
+    color: white; 
+} 
+
+.text-contact:hover {
+    color: black;
+    background-color: white;
+} 
+
+.us {
+    background: radial-gradient( grey, black);
+    height: 55rem; 
+    padding: 2rem;
+
+}
+
+.us-1 {
+    width: 10rem; 
+    height: 10rem;
+    padding: 1rem;
+    margin: 0rem 0rem 5rem 8rem; 
+    border: 2rem; 
+    content: 2rem;
+    background-color: black; 
+    color: grey;
+
+} 
+
+.us-1:hover {
+    width: 15rem; 
+    height: 15rem;
+    padding: 2rem; 
+    margin: 0rem 0rem 5rem 8rem;
+    background-color: rgba(25, 25, 25, 0.494);
+    color: tomato;
+    transition: all 1s; 
+    box-shadow: 10px;
+}
 
 
+.us-2 { 
+    width: 20rem; 
+    height: 10rem;
+    padding: 1rem; 
+    margin: 1rem 0rem 0rem 8rem;
+    background-color: black;
+    color: white;
+    font-size: 0.5rem;
+}
 
+.us-2:hover { 
+    width: 40rem; 
+    height: 20rem;
+    padding: 1rem; 
+    margin: 1rem 0rem 5rem 8rem;
+    background-color: rgba(25, 25, 25, 0.494); 
+    color: rgb(238, 77, 48);
+    transition: all 1s;
+    font-size: 1.3rem;
+}
 
 /* productos destacados */
 
