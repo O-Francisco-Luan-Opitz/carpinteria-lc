@@ -35,6 +35,8 @@ footer {
     text-decoration: none;
 } 
 
+
+
 .name .text-start a:hover {     
     height: 10rem; 
     padding: 4rem;
@@ -56,6 +58,10 @@ footer {
     background-color: white;
 } 
 
+.box-contact {
+    height: 56rem;
+}
+
 .us {
     background: radial-gradient( grey, black);
     height: 55rem; 
@@ -64,23 +70,23 @@ footer {
 }
 
 .us-1 {
-    width: 10rem; 
-    height: 10rem;
+    width: 19rem; 
+    height: 19rem;
     padding: 1rem;
     margin: 0rem 0rem 5rem 8rem; 
     border: 2rem; 
     content: 2rem;
-    background-color: black; 
+    background-color: rgba(8, 93, 14, 0.351); 
     color: grey;
 
 } 
 
 .us-1:hover {
-    width: 15rem; 
-    height: 15rem;
+    width: 17rem; 
+    height: 17rem;
     padding: 2rem; 
     margin: 0rem 0rem 5rem 8rem;
-    background-color: rgba(25, 25, 25, 0.494);
+    background-color: rgba(1, 22, 3, 0.801);
     color: tomato;
     transition: all 1s; 
     box-shadow: 10px;
@@ -89,9 +95,9 @@ footer {
 
 .us-2 { 
     width: 20rem; 
-    height: 10rem;
+    height: 6rem;
     padding: 1rem; 
-    margin: 1rem 0rem 0rem 8rem;
+    margin: -5rem 0rem 0rem 30rem;
     background-color: black;
     color: white;
     font-size: 0.5rem;
@@ -99,13 +105,32 @@ footer {
 
 .us-2:hover { 
     width: 40rem; 
-    height: 20rem;
+    height: 15rem;
     padding: 1rem; 
-    margin: 1rem 0rem 5rem 8rem;
+    margin: -5rem 0rem 0rem 30rem;
     background-color: rgba(25, 25, 25, 0.494); 
     color: rgb(238, 77, 48);
-    transition: all 1s;
+    transition: all 2s;
     font-size: 1.3rem;
+}
+
+.us-1 #img-us {
+    width: 17rem; 
+    height: 17rem;
+} 
+
+.rrss-us {
+    width: 10rem;
+    height: 10rem; 
+    margin: -5rem 0rem 0rem 45rem; 
+    
+}
+
+.rrss-us:active {
+    width: 10rem;
+    height: 10rem; 
+    margin: -5rem 0rem 0rem 45rem; 
+    transform: rotate(30deg);
 }
 
 /* productos destacados */
@@ -176,5 +201,79 @@ footer {
 
 footer div {
     animation: my-animation 20s linear 0s infinite;
-}
+} 
 
+
+
+/* media queries */ 
+
+
+
+@media (max-width: 1000px) { 
+    
+    .name .text-start a { 
+    
+        display: none;
+    } 
+
+
+    .us {
+        background: radial-gradient( grey, black);
+        height: 55rem; 
+        padding: 2rem;
+    
+    }
+    
+    .us-1 {
+        width: 12rem; 
+        height: 12rem;
+        padding: 1rem;
+        margin: 0rem 0rem 5rem 8rem; 
+        border: 2rem; 
+        content: 2rem;
+        background-color: rgb(111, 28, 0); 
+        color: grey;
+    
+    } 
+    
+    .us-1:hover {
+        width: 11rem; 
+        height:11rem;
+        padding: 2rem; 
+        margin: 0rem 0rem 5rem 8rem;
+        background-color: rgba(0, 0, 0, 0.494);
+        color: tomato;
+        transition: all 1s; 
+        box-shadow: 10px;
+    }
+    
+    .us-1 #img-us {
+        width: 10rem; 
+        height: 10rem;
+    }
+
+    
+    .us-2 { 
+        width: 15rem; 
+        height: 7rem;
+        padding: 1rem; 
+        margin: 1rem 0rem 0rem 2rem;
+        background-color: black;
+        color: white;
+        font-size: 0.5rem;
+    }
+    
+    .us-2:hover { 
+        width: 27rem; 
+        height: 20rem;
+        padding: 1rem; 
+        margin: 1rem 0rem 5rem 2rem;
+        background-color: rgba(25, 25, 25, 0.494); 
+        color: rgb(238, 77, 48);
+        transition: all 1s;
+        font-size: 1.3rem;
+    } 
+
+
+
+}
