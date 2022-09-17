@@ -1,0 +1,275 @@
+* {
+  /*     background: linear-gradient(to right, rgb(161, 236, 161),white); */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+footer {
+  background: linear-gradient(green, grey);
+  color: white;
+  height: auto;
+}
+footer div {
+  -webkit-animation: my-animation 20s linear 0s infinite;
+          animation: my-animation 20s linear 0s infinite;
+}
+
+.name {
+  display: flex;
+  flex-direction: row-reverse;
+  background: radial-gradient(grey, black);
+  padding: 1rem;
+}
+.name .text-start a {
+  height: 10rem;
+  padding: 4rem;
+  color: white;
+  font-family: fantasy;
+  text-decoration: none;
+}
+.name .text-start a:hover {
+  height: 10rem;
+  padding: 4rem;
+  color: rgb(255, 94, 66);
+  font-family: fantasy;
+}
+
+.gradient {
+  background: radial-gradient(grey, black);
+}
+
+.box-contact {
+  height: 56rem;
+}
+
+.text-contact {
+  color: white;
+}
+.text-contact:hover {
+  color: black;
+  background-color: white;
+}
+
+.us {
+  background: radial-gradient(grey, black);
+  height: 55rem;
+  padding: 2rem;
+}
+.us .us-1 {
+  width: 19rem;
+  height: 19rem;
+  padding: 1rem;
+  margin: 0rem 0rem 5rem 8rem;
+  border: 2rem;
+  content: 2rem;
+  background-color: rgba(8, 93, 14, 0.351);
+  color: grey;
+}
+.us .us-1 #img-us {
+  width: 17rem;
+  height: 17rem;
+}
+.us .us-1:hover {
+  width: 17rem;
+  height: 17rem;
+  padding: 2rem;
+  margin: 0rem 0rem 5rem 8rem;
+  background-color: rgba(1, 22, 3, 0.801);
+  color: tomato;
+  transition: all 1s;
+  box-shadow: 10px;
+}
+.us .us-2 {
+  width: 20rem;
+  height: 6rem;
+  padding: 1rem;
+  margin: -5rem 0rem 0rem 30rem;
+  background-color: black;
+  color: white;
+  font-size: 0.5rem;
+}
+.us .us-2:hover {
+  width: 40rem;
+  height: 15rem;
+  padding: 1rem;
+  margin: -5rem 0rem 0rem 30rem;
+  background-color: rgba(25, 25, 25, 0.494);
+  color: rgb(238, 77, 48);
+  transition: all 2s;
+  font-size: 1.3rem;
+}
+.us .rrss-us {
+  width: 10rem;
+  height: 10rem;
+  margin: -5rem 0rem 0rem 45rem;
+}
+.us .rrss-us:active {
+  width: 10rem;
+  height: 10rem;
+  margin: -5rem 0rem 0rem 45rem;
+  transform: rotate(30deg);
+}
+
+@-webkit-keyframes my-animation {
+  0% {
+    background-color: black;
+  }
+  10% {
+    background-color: rgb(51, 63, 47);
+  }
+  14% {
+    background-color: rgb(24, 43, 18);
+  }
+  18% {
+    background-color: rgb(35, 78, 40);
+  }
+  24% {
+    background-color: rgb(9, 83, 18);
+  }
+  30% {
+    background-color: rgb(25, 91, 31);
+  }
+  45% {
+    background-color: rgb(8, 76, 15);
+  }
+  65% {
+    background-color: rgb(7, 135, 2);
+  }
+  70% {
+    background-color: rgb(8, 76, 15);
+  }
+  75% {
+    background-color: rgb(9, 83, 18);
+  }
+  82% {
+    background-color: rgb(25, 91, 31);
+  }
+  90% {
+    background-color: rgb(11, 36, 13);
+  }
+  95% {
+    background-color: rgb(24, 43, 18);
+  }
+  100% {
+    background-color: rgb(35, 78, 40);
+  }
+}
+
+@keyframes my-animation {
+  0% {
+    background-color: black;
+  }
+  10% {
+    background-color: rgb(51, 63, 47);
+  }
+  14% {
+    background-color: rgb(24, 43, 18);
+  }
+  18% {
+    background-color: rgb(35, 78, 40);
+  }
+  24% {
+    background-color: rgb(9, 83, 18);
+  }
+  30% {
+    background-color: rgb(25, 91, 31);
+  }
+  45% {
+    background-color: rgb(8, 76, 15);
+  }
+  65% {
+    background-color: rgb(7, 135, 2);
+  }
+  70% {
+    background-color: rgb(8, 76, 15);
+  }
+  75% {
+    background-color: rgb(9, 83, 18);
+  }
+  82% {
+    background-color: rgb(25, 91, 31);
+  }
+  90% {
+    background-color: rgb(11, 36, 13);
+  }
+  95% {
+    background-color: rgb(24, 43, 18);
+  }
+  100% {
+    background-color: rgb(35, 78, 40);
+  }
+}
+.box-animado-1 {
+  background-color: tomato;
+  -webkit-animation: my-animation 20s linear 0s infinite;
+          animation: my-animation 20s linear 0s infinite;
+}
+
+@media (max-width: 1000px) {
+  .name .text-start a {
+    display: none;
+  }
+  .us {
+    background: radial-gradient(grey, black);
+    height: 55rem;
+    padding: 2rem;
+  }
+  .us .us-1 {
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
+    margin: 0rem 0rem 5rem 8rem;
+    border: 2rem;
+    content: 2rem;
+    background-color: rgb(111, 28, 0);
+    color: grey;
+  }
+  .us .us-1 #img-us {
+    width: 10rem;
+    height: 10rem;
+  }
+  .us .us-1:hover {
+    width: 11rem;
+    height: 11rem;
+    padding: 2rem;
+    margin: 0rem 0rem 5rem 8rem;
+    background-color: rgba(0, 0, 0, 0.494);
+    color: tomato;
+    transition: all 1s;
+    box-shadow: 10px;
+  }
+  .us .us-2 {
+    width: 15rem;
+    height: 7rem;
+    padding: 1rem;
+    margin: 1rem 0rem 0rem 2rem;
+    background-color: black;
+    color: white;
+    font-size: 0.5rem;
+  }
+  .us .us-2:hover {
+    width: 27rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 1rem 0rem 5rem 2rem;
+    background-color: rgba(25, 25, 25, 0.494);
+    color: rgb(238, 77, 48);
+    transition: all 1s;
+    font-size: 1.3rem;
+  }
+  .us .rrss-us {
+    width: 10rem;
+    height: 10rem;
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  .us .rrss-us:active {
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem 0rem 0rem 0rem;
+    transform: rotate(30deg);
+  }
+}/*# sourceMappingURL=estilo-lc.css.map */

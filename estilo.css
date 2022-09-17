@@ -14,9 +14,6 @@ footer {
     height: auto;
 } 
 
-.footer-contact {
-
-} 
 
 .name { 
     display: flex; 
@@ -47,6 +44,10 @@ footer {
 
 .gradient {
     background: radial-gradient( grey, black);
+} 
+
+.box-contact {
+    height: 56rem;
 }
 
 .text-contact {
@@ -58,9 +59,7 @@ footer {
     background-color: white;
 } 
 
-.box-contact {
-    height: 56rem;
-}
+
 
 .us {
     background: radial-gradient( grey, black);
