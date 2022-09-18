@@ -122,6 +122,23 @@
   font-family: fantasy;
 }
 
+.seccion-central .cont-index {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.seccion-central .cont-index .gradient, .seccion-central .cont-index .gradient-extend {
+  background: radial-gradient(grey, black);
+}
+.seccion-central .cont-index .item-index {
+  width: auto;
+  background-color: wheat;
+  padding: 30px 20px;
+  border: 5px solid green;
+  margin-top: 200px;
+  margin-left: auto;
+}
+
 .us {
   height: 55rem;
   padding: 2rem;
@@ -160,29 +177,50 @@
     transition: all 1s;
     box-shadow: 10px;
   }
-  .box-contact {
-    height: 56rem;
+  .cont-index {
+    display: flex;
+    flex-direction: column;
+    width: auto;
   }
-  .text-contact {
-    color: white;
+  .cont-index .gradient, .cont-index .gradient-extend, .seccion-central .cont-index .gradient-extend, .seccion-central .cont-index .gradient {
+    background: radial-gradient(grey, black);
+    padding-bottom: 50rem;
   }
-  .text-contact:hover {
-    color: black;
-    background-color: white;
-  }
-  .gradient, .gradient-extend {
-    background: linear-gradient(green, grey);
-  }
-  footer {
-    background: linear-gradient(green, grey);
-    color: white;
-    height: auto;
-  }
-  footer div {
-    -webkit-animation: my-animation 20s linear 0s infinite;
-            animation: my-animation 20s linear 0s infinite;
+  .cont-index .item-index {
+    width: auto;
+    background-color: wheat;
+    padding: 30px;
+    border: 5px solid green;
+    margin-top: 200px;
+    margin-right: 70px;
   }
 }
+.box-contact {
+  height: 56rem;
+}
+
+.text-contact {
+  color: white;
+}
+.text-contact:hover {
+  color: black;
+  background-color: white;
+}
+
+.gradient, .gradient-extend, .seccion-central .cont-index .gradient-extend, .seccion-central .cont-index .gradient {
+  background: linear-gradient(green, grey);
+}
+
+footer {
+  background: linear-gradient(green, grey);
+  color: white;
+  height: auto;
+}
+footer div {
+  -webkit-animation: my-animation 20s linear 0s infinite;
+          animation: my-animation 20s linear 0s infinite;
+}
+
 footer {
   background: linear-gradient(green, grey);
   color: white;
@@ -217,7 +255,7 @@ footer div {
   background: linear-gradient(to right, grey, green);
 }
 
-.gradient, .gradient-extend {
+.gradient, .gradient-extend, .seccion-central .cont-index .gradient-extend, .seccion-central .cont-index .gradient {
   background: radial-gradient(grey, black);
   padding-bottom: 50rem;
 }

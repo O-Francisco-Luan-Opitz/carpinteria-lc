@@ -36,8 +36,38 @@
                         transition: all 1s; 
                         box-shadow: 10px;
                 } 
-         }
+         } 
+
+
+
+         .cont-index {
+            .gradient {
+
+                background: radial-gradient(grey, black);
+                padding-bottom: 50rem; 
+            }
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            
         
+        
+            .item-index{
+                width: auto;
+                background-color: wheat;
+                padding: 30px; 
+                border: 5px solid green; 
+                margin-top: 200px;
+                margin-right: 70px;
+
+            }
+            
+        }
+        
+
+        
+        
+        }
 
 
 
@@ -67,4 +97,4 @@ footer {
         animation: my-animation 20s linear 0s infinite;
     } 
 } 
-        }
+        
