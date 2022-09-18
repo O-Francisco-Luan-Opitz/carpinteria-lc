@@ -1,0 +1,70 @@
+
+        @media (max-width: 1000px) {
+            .name {
+                .text-start {
+                    a {
+                        display: none;
+                    }
+                }
+            }
+        
+            .us {
+                background: radial-gradient( grey, black);
+                height: 55rem; 
+                padding: 2rem;
+                .us-1 {
+                    width: 12rem; 
+                    height: 12rem;
+                    padding: 1rem;
+                    margin: 0rem 0rem 5rem 8rem; 
+                    border: 2rem; 
+                    content: 2rem;
+                    background-color: rgb(111, 28, 0); 
+                    color: grey; }
+                    #img-us {
+                        width: 10rem; 
+                        height: 10rem;
+                    }
+                
+                    &:hover {
+                        width: 11rem; 
+                        height:11rem;
+                        padding: 2rem; 
+                        margin: 0rem 0rem 5rem 8rem;
+                        background-color: rgba(0, 0, 0, 0.494);
+                        color: tomato;
+                        transition: all 1s; 
+                        box-shadow: 10px;
+                } 
+         }
+        
+
+
+
+
+ .box-contact {
+    height: 56rem;
+}
+
+.text-contact {
+    color: white; 
+    &:hover {
+        color: black;
+        background-color: white;
+    } 
+} 
+
+.gradient {
+    background: linear-gradient(green, grey)
+}
+
+
+footer {
+    background: linear-gradient(green, grey);
+    color: white;
+    height: auto;
+    div {
+        animation: my-animation 20s linear 0s infinite;
+    } 
+} 
+        }

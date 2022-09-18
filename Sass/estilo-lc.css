@@ -8,112 +8,6 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-footer {
-  background: linear-gradient(green, grey);
-  color: white;
-  height: auto;
-}
-footer div {
-  -webkit-animation: my-animation 20s linear 0s infinite;
-          animation: my-animation 20s linear 0s infinite;
-}
-
-.name {
-  display: flex;
-  flex-direction: row-reverse;
-  background: radial-gradient(grey, black);
-  padding: 1rem;
-}
-.name .text-start a {
-  height: 10rem;
-  padding: 4rem;
-  color: white;
-  font-family: fantasy;
-  text-decoration: none;
-}
-.name .text-start a:hover {
-  height: 10rem;
-  padding: 4rem;
-  color: rgb(255, 94, 66);
-  font-family: fantasy;
-}
-
-.gradient {
-  background: radial-gradient(grey, black);
-}
-
-.box-contact {
-  height: 56rem;
-}
-
-.text-contact {
-  color: white;
-}
-.text-contact:hover {
-  color: black;
-  background-color: white;
-}
-
-.us {
-  background: radial-gradient(grey, black);
-  height: 55rem;
-  padding: 2rem;
-}
-.us .us-1 {
-  width: 19rem;
-  height: 19rem;
-  padding: 1rem;
-  margin: 0rem 0rem 5rem 8rem;
-  border: 2rem;
-  content: 2rem;
-  background-color: rgba(8, 93, 14, 0.351);
-  color: grey;
-}
-.us .us-1 #img-us {
-  width: 17rem;
-  height: 17rem;
-}
-.us .us-1:hover {
-  width: 17rem;
-  height: 17rem;
-  padding: 2rem;
-  margin: 0rem 0rem 5rem 8rem;
-  background-color: rgba(1, 22, 3, 0.801);
-  color: tomato;
-  transition: all 1s;
-  box-shadow: 10px;
-}
-.us .us-2 {
-  width: 20rem;
-  height: 6rem;
-  padding: 1rem;
-  margin: -5rem 0rem 0rem 30rem;
-  background-color: black;
-  color: white;
-  font-size: 0.5rem;
-}
-.us .us-2:hover {
-  width: 40rem;
-  height: 15rem;
-  padding: 1rem;
-  margin: -5rem 0rem 0rem 30rem;
-  background-color: rgba(25, 25, 25, 0.494);
-  color: rgb(238, 77, 48);
-  transition: all 2s;
-  font-size: 1.3rem;
-}
-.us .rrss-us {
-  width: 10rem;
-  height: 10rem;
-  margin: -5rem 0rem 0rem 45rem;
-}
-.us .rrss-us:active {
-  width: 10rem;
-  height: 10rem;
-  margin: -5rem 0rem 0rem 45rem;
-  transform: rotate(30deg);
-}
-
 @-webkit-keyframes my-animation {
   0% {
     background-color: black;
@@ -204,9 +98,33 @@ footer div {
   }
 }
 .box-animado-1 {
-  background-color: tomato;
   -webkit-animation: my-animation 20s linear 0s infinite;
           animation: my-animation 20s linear 0s infinite;
+}
+
+.name {
+  display: flex;
+  flex-direction: row-reverse;
+  background: radial-gradient(grey, black);
+  padding: 1rem;
+}
+.name .text-start a {
+  color: white;
+  height: 10rem;
+  padding: 4rem;
+  font-family: fantasy;
+  text-decoration: none;
+}
+.name .text-start a:hover {
+  color: tomato;
+  height: 10rem;
+  padding: 4rem;
+  font-family: fantasy;
+}
+
+.us {
+  height: 55rem;
+  padding: 2rem;
 }
 
 @media (max-width: 1000px) {
@@ -228,11 +146,11 @@ footer div {
     background-color: rgb(111, 28, 0);
     color: grey;
   }
-  .us .us-1 #img-us {
+  .us #img-us {
     width: 10rem;
     height: 10rem;
   }
-  .us .us-1:hover {
+  .us:hover {
     width: 11rem;
     height: 11rem;
     padding: 2rem;
@@ -242,34 +160,68 @@ footer div {
     transition: all 1s;
     box-shadow: 10px;
   }
-  .us .us-2 {
-    width: 15rem;
-    height: 7rem;
-    padding: 1rem;
-    margin: 1rem 0rem 0rem 2rem;
-    background-color: black;
+  .box-contact {
+    height: 56rem;
+  }
+  .text-contact {
     color: white;
-    font-size: 0.5rem;
   }
-  .us .us-2:hover {
-    width: 27rem;
-    height: 20rem;
-    padding: 1rem;
-    margin: 1rem 0rem 5rem 2rem;
-    background-color: rgba(25, 25, 25, 0.494);
-    color: rgb(238, 77, 48);
-    transition: all 1s;
-    font-size: 1.3rem;
+  .text-contact:hover {
+    color: black;
+    background-color: white;
   }
-  .us .rrss-us {
-    width: 10rem;
-    height: 10rem;
-    margin: 5rem 0rem 0rem 0rem;
+  .gradient, .gradient-extend {
+    background: linear-gradient(green, grey);
   }
-  .us .rrss-us:active {
-    width: 10rem;
-    height: 10rem;
-    margin: 2rem 0rem 0rem 0rem;
-    transform: rotate(30deg);
+  footer {
+    background: linear-gradient(green, grey);
+    color: white;
+    height: auto;
   }
+  footer div {
+    -webkit-animation: my-animation 20s linear 0s infinite;
+            animation: my-animation 20s linear 0s infinite;
+  }
+}
+footer {
+  background: linear-gradient(green, grey);
+  color: white;
+  height: auto;
+}
+footer div {
+  -webkit-animation: my-animation 20s linear 0s infinite;
+          animation: my-animation 20s linear 0s infinite;
+}
+
+.box-contact {
+  height: 56rem;
+}
+
+.text-contact {
+  color: white;
+}
+.text-contact:hover {
+  color: black;
+  background-color: white;
+}
+
+.col-12 .btn-1 {
+  display: inline-block;
+  padding: 10px 40px;
+  border: 5px solid tomato;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: 2px solid;
+  background: linear-gradient(to right, grey, green);
+}
+
+.gradient, .gradient-extend {
+  background: radial-gradient(grey, black);
+  padding-bottom: 50rem;
+}
+
+.gradient-extend {
+  background: black;
 }/*# sourceMappingURL=estilo-lc.css.map */
