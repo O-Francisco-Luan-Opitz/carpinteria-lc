@@ -1,11 +1,21 @@
-
-
-.us {
-
-    height: 55rem; 
-    padding: 2rem;
+.us-container {
+    .us-item {
+        img {
+            width: 25rem;
+            height: 25rem;
+            padding-top: 5rem;
+            padding-left: 5rem;
+        }
+        p {
+            background-color: tomato;
+            color: white;
+            padding: 1rem;
+            margin: 1rem;
+            width: auto;
+        }
+    }
 }
-    
+
 
 
  

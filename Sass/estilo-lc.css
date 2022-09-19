@@ -122,6 +122,17 @@
   font-family: fantasy;
 }
 
+.carousel .img-crsl {
+  height: 800px;
+  width: 500px;
+  padding: 1px;
+}
+
+.seccion-central {
+  height: auto;
+  padding: 20%;
+  display: flex;
+}
 .seccion-central .cont-index {
   display: flex;
   width: 100%;
@@ -138,10 +149,28 @@
   margin-top: 200px;
   margin-left: auto;
 }
+.seccion-central .card-item {
+  height: 50px;
+  background-color: white;
+  margin: 10px;
+}
+.seccion-central .card-item .card-body {
+  background-color: tomato;
+  color: white;
+}
 
-.us {
-  height: 55rem;
-  padding: 2rem;
+.us-container .us-item img {
+  width: 25rem;
+  height: 25rem;
+  padding-top: 5rem;
+  padding-left: 5rem;
+}
+.us-container .us-item p {
+  background-color: tomato;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  width: auto;
 }
 
 @media (max-width: 1000px) {
@@ -219,6 +248,17 @@ footer {
 footer div {
   -webkit-animation: my-animation 20s linear 0s infinite;
           animation: my-animation 20s linear 0s infinite;
+}
+
+.container-clients {
+  background: radial-gradient(black, grey);
+}
+.container-clients .col {
+  padding: 2rem;
+}
+.container-clients .col .card {
+  background: linear-gradient(tomato, grey);
+  color: black;
 }
 
 footer {

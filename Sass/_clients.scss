@@ -1,0 +1,15 @@
+.container-clients {
+    background: radial-gradient(black, grey);
+
+    .col {
+        padding: 2rem; 
+        
+            .card {
+                background: linear-gradient(tomato, grey);
+                color: black;
+
+            }
+        
+
+    }
+}
